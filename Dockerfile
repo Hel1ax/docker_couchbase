@@ -1,2 +1,5 @@
-FROM couchbase/server:enterprise-7.0.0
+FROM couchbase:latest
 
+COPY . .
+
+EXPOSE 8080
